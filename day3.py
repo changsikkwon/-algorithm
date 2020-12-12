@@ -18,6 +18,7 @@
         [4,4,4,3,3]	        [4,3]
 """
 
+
 def solution(arr):
     answer = [arr[0]]
     for i in arr[1:]:
