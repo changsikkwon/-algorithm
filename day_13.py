@@ -14,6 +14,7 @@
         5	24	TUE
 """
 
+
 import datetime
 def solution(a, b):
     weekend=['MON','TUE','WED','THU','FRI','SAT','SUN']
