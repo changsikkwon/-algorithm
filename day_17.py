@@ -9,9 +9,9 @@
         x는 1 이상, 10000 이하인 정수입니다.
     
     입출력 예:
-        arr	return
-        10	true
-        12	true
+        arr	return 
+        10	true 
+        12	true 
         11	false
         13	false
 """
