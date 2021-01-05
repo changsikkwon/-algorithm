@@ -23,6 +23,6 @@ def solution(s):
     for i in s:
         a.append(i.lower())
         count = c(a)
-    if count['p']==count['y']:
-        return True
+        if count['p']==count['y']:
+            return True
     return False
