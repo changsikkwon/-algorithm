@@ -21,9 +21,7 @@
 def solution(s, n):
     answer = ''
     for i in s:
-        if ord(i)+n > 122:
-            answer+=chr(ord(i)+n-26)
-        elif ord(i)+n > 90 and ord(i)<91:
+        if ord(i)+n > 122 or ord(i)+n > 90 and ord(i)<91:
             answer+=chr(ord(i)+n-26)
         elif i == ' ':
             answer+=' '
