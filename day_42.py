@@ -22,6 +22,5 @@ def solution(p, l):
         else:   
             count+=1
             p.remove(v)
-            print(p)
             if i == l:
                 return count
