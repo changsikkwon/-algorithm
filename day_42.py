@@ -7,9 +7,9 @@
         이 새롭게 개발한 프린터는 아래와 같은 방식으로 인쇄 작업을 수행합니다.
         
     입출력 예:
-        priorities	        location	return
-        [2, 1, 3, 2]	    2  	        1
-        [1, 1, 9, 1, 1, 1]	0	        5
+        priorities	            location	return
+        [2, 1, 3, 2]	        2  	        1
+        [1, 1, 9, 1, 1, 1]	    0	        5
 """
 
 def solution(p, l):
@@ -22,6 +22,5 @@ def solution(p, l):
         else:   
             count+=1
             p.remove(v)
-            print(p)
             if i == l:
                 return count
