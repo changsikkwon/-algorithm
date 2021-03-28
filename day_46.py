@@ -19,7 +19,7 @@
 """
 
 def solution(p):
-    p.sort()
+    p.sort(key=len)
     if len([i for i in p if not i.startswith(p[0])])==len(p)-1:
         return True
     return False
